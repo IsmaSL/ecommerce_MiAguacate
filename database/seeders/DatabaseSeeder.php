@@ -22,8 +22,8 @@ class DatabaseSeeder extends Seeder
         Storage::makeDirectory('products');
 
         $this->call(UserSeeder::class);
-        //$this->call(CategorySeeder::class);
-        //$this->call(ProductSeeder::class);
+        $this->call(CategorySeeder::class);
+        $this->call(ProductSeeder::class);
         //$this->call(DepartmentSeeder::class);
     }
 }
