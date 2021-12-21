@@ -106,7 +106,7 @@ class CreateCategory extends Component
         ];
 
         if ($this->editImage) {
-            $rules['ediImage'] = 'image|max:2048';
+            $rules['editImage'] = 'image|max:2048';
         }
         $this->validate($rules);
 
